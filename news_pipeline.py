@@ -5,7 +5,7 @@ from openai import OpenAI
 
 # ========== CONFIG ==========
 import os
-client = OpenAI(api_key=os.getenv("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")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 URL = "https://finance.yahoo.com/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 

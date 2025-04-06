@@ -1,6 +1,6 @@
 {
     "scripts": {
-      "start": "python3 news_pipeline.py"
+      "start": "python news_pipeline.py"
     }
   }
 
