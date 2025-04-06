@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from openai import OpenAI
 
+print("▶️ Script avviato...")
+
+
 # ========== CONFIG ==========
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
