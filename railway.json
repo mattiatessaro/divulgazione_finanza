@@ -1,0 +1,7 @@
+{
+    "scripts": {
+      "start": "python3 news_pipeline.py"
+    }
+  }
+
+  
